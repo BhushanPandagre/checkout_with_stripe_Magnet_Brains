@@ -30,14 +30,31 @@ of features of Stripe.js.
 
 ---
 
+### Start the Application
+
+#### Start the Frontend Development Server:
+Navigate to the `client` folder and run the following command to start the development server:
+
+
+cd client
+cd  Checkout with Stripe
+npm start dev
+
+#### Start the Backend Server:
+
+Navigate to the `server` folder and use the following command to start the backend server:
+
+cd server
+nodemon server.js
+
 
 ## Installation
 
 ### Clone the Repository
 ```bash
-git clone <()>
+git clone <(https://github.com/BhushanPandagre/checkout_with_stripe_Magnet_Brains.git)>
 cd client
-cd task management system
+cd  Checkout with Stripe
 
 ### Install Dependencies
 Run the following command to install all required dependencies:
@@ -50,6 +67,12 @@ Use `npm` to install the Stripe.js module:
 ```sh
 npm install @stripe/stripe-js
 ```
+### Set Up Environment Variables
+
+Create a `.env` file in the root directory of your project and include the following keys:
+
+PORT=5000
+
 
 ## Usage
 
@@ -94,3 +117,13 @@ import '@stripe/stripe-js';
 - [Stripe.js Docs](https://stripe.com/docs/stripe-js)
 - [Stripe.js Reference](https://stripe.com/docs/js)
 - [React Stripe.js Docs](https://stripe.com/docs/stripe-js/react)
+
+
+## Developed By
+
+**[Bhushan Pandagre]**  
+🚀 **Developer | Programmer | Innovator**  
+
+📧 **Contact**: [pandagrebhushan3@gmail.com] 
+🌐 **Portfolio**: [(https://logo-generator-ra9f.vercel.app/)]  
+💼 **LinkedIn**: [www.linkedin.com/in/bhushan-pandagre ]
