@@ -23,7 +23,7 @@ of features of Stripe.js.
 
 | Component      | Technology              |
 |----------------|-------------------------|
-| Frontend       | React.js, css     |
+| Frontend       | React.js,Redux, css     |
 | Backend        | Node.js, Express.js     |
 | Database       | MongoDB                 |
 | Styling        | CSS         |
