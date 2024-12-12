@@ -1,0 +1,162 @@
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(45deg, #1f1f1f, #3a3a3a);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  border-bottom: 2px solid #444;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-brand a:hover {
+  color: #f39c12;
+  transform: scale(1.1);
+}
+
+.cart-container {
+  position: relative;
+}
+
+.cart-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.cart-container a:hover {
+  color: #f39c12;
+  transform: scale(1.1);
+}
+
+.ri-shopping-cart-line {
+  font-size: 1.8em;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.ri-shopping-cart-line:hover {
+  color: #f39c12;
+  transform: rotate(20deg) scale(1.2);
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: radial-gradient(circle, #e74c3c, #c0392b);
+  color: white;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 4px 7px;
+  font-size: 0.9em;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-5px);
+  }
+  60% {
+    transform: translateY(-3px);
+  }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .cancel-page {
+    width: 85%;
+    padding: 25px;
+  }
+
+  .cancel-page h1 {
+    font-size: 2.8em;
+  }
+
+  .cancel-page p {
+    font-size: 1.2em;
+  }
+
+  .cancel-page .dashboard-link {
+    font-size: 1.1em;
+    padding: 12px 25px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .navbar-brand {
+    font-size: 1.8em;
+  }
+
+  .cart-container a {
+    font-size: 1em;
+  }
+
+  .ri-shopping-cart-line {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .cancel-page {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .cancel-page h1 {
+    font-size: 2.4em;
+  }
+
+  .cancel-page p {
+    font-size: 1.1em;
+  }
+
+  .cancel-page .dashboard-link {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .navbar-brand {
+    font-size: 1.6em;
+  }
+
+  .cart-container a {
+    font-size: 0.9em;
+  }
+
+  .ri-shopping-cart-line {
+    font-size: 1.4em;
+  }
+}
+
+/* ====================@@@==================== */
