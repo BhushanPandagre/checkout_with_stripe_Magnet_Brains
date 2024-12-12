@@ -19,8 +19,31 @@ of features of Stripe.js.
 
 - Node.js:v18.18.0
 
+## Technology Stack
+
+| Component      | Technology              |
+|----------------|-------------------------|
+| Frontend       | React.js, css     |
+| Backend        | Node.js, Express.js     |
+| Database       | MongoDB                 |
+| Styling        | CSS         |
+
+---
+
 
 ## Installation
+
+### Clone the Repository
+```bash
+git clone <()>
+cd client
+cd task management system
+
+### Install Dependencies
+Run the following command to install all required dependencies:
+
+npm install
+
 
 Use `npm` to install the Stripe.js module:
 
