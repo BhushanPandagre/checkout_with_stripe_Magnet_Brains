@@ -39,13 +39,14 @@ cd client
 
 cd  Checkout with Stripe
 
-npm start dev
+npm run dev
 
 #### Start the Backend Server:
 
 Navigate to the `server` folder and use the following command to start the backend server:
 
 cd server
+
 nodemon server.js
 
 
