@@ -35,9 +35,10 @@ of features of Stripe.js.
 #### Start the Frontend Development Server:
 Navigate to the `client` folder and run the following command to start the development server:
 
-
 cd client
+
 cd  Checkout with Stripe
+
 npm start dev
 
 #### Start the Backend Server:
