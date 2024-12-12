@@ -15,8 +15,6 @@ impact tooling around the `loadStripe` helper itself and the TypeScript type
 definitions provided for Stripe.js. Updates do not affect runtime availability
 of features of Stripe.js.
 
-[![npm version](https://img.shields.io/npm/v/@stripe/stripe-js.svg?style=flat-square)](https://www.npmjs.com/package/@stripe/stripe-js)
-
 ## Minimum requirements
 
 - Node.js:v18.18.0
